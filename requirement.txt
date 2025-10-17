@@ -1,0 +1,22 @@
+1. Install Python extension in VS Code
+
+2. If clf.pkl, tfidf.pkl and encoder.pkl is not working from here then follow this process to download it
+"Run this drive file in Google Collab or Jupyter Notebook"
+And download clf.pkl, tfidf.pkl, encoder.pkl by running this code in Google collab or Jupyter Notebook
+
+3. Code to download pkl files from google collab: 
+        from google.colab import files
+        files.download("clf.pkl")
+
+        from google.colab import files
+        files.download("tfidf.pkl")
+
+        from google.colab import files
+        files.download("encoder.pkl")
+
+4. After this, Create and open a folder named as Resume_Screening and open New Terminal Run this code:
+        pip install streamlit pandas numpy scikit-learn matplotlib seaborn PyPDF2
+        pip install nltk
+
+5. Next run this code:
+        python -m streamlit run app.py
