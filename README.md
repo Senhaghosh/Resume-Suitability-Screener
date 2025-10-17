@@ -24,18 +24,14 @@ The frontend is built using **Streamlit**, offering an interactive and easy-to-u
 ---
 
 ## ✨ Features
-- Upload multiple resumes in PDF format  
+- Upload upto 5 resumes at a time in PDF format  
 - Select a target job role (e.g., Data Scientist, Java Developer, etc.)  
 - Predict candidate suitability percentage  
 - Display results with an interactive **donut chart**  
 - Highlights the most suitable candidate visually  
-- Simple, fast, and fully automated interface  
-
+- Simple, fast, and fully automated interface
+    
 ---
-
-## 👩‍💻 Role & Contribution 
-**Role:** ML Developer & Streamlit App Developer 
-**Developers:** Senha Ghosh and Team
 
 **Roles & Work Done:**  
 - Collected and cleaned the dataset (Kaggle Updated Resume Dataset)  
